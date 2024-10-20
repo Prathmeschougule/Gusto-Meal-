@@ -42,7 +42,7 @@ const fetchRecippes= async(query)=>{
     });
 
 } catch (error) {
-    recipiContainer.innerHTML=`<div class="center"><h2>Error Fetching In Recipes.......<h2></div>`
+    recipiContainer.innerHTML=`<div class="center Error-img"><h2>Error Fetching In Recipes.......<h2></div>`
 }
    
 
